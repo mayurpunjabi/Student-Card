@@ -1,0 +1,68 @@
+body {
+	margin:0;
+}
+
+.inputs {
+	width:68%;
+}
+
+#logo {
+	width:150px;
+	height:150px;
+	float:left;
+	margin-top:15px;
+}
+
+#img-upload {
+	float:right;
+	margin-right:5px;
+	margin-top:5px;
+}
+
+.img-btn {
+	margin:5px;
+}
+
+.box {
+	height:210px;
+	width:210px;
+	border:2px solid black;
+	margin-left:50px;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+.main{
+	position:relative;
+	text-align:center;
+    width: 99.99%;
+    padding:5px;
+    border: 0px solid grey;
+	background-color: #2ab1f5;
+	color:black;
+	text-shadow:2px 3px rgba(255,255,255,0.42);
+	letter-spacing:3px;
+}
+
+.main h1 {
+	font-size:35px;
+	padding-top:20px;
+}
+
+.main h2 {
+	font-size:27px;
+}
+
+#heading {
+	z-index:1;
+	position:sticky;
+	top:0;
+	text-align:center;
+	padding-top:0px;
+	margin-bottom:1px;
+	font-size:50px;
+	color:white;
+	text-shadow:2px 3px rgba(0,0,0,0.42);
+}
+
+
