@@ -1,0 +1,103 @@
+body {
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+nav span.left {float:left;}
+
+nav span.left a {
+	float:left;
+	margin:0;
+	padding:0;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav span.left a:hover:not(.active) {background-color: #000;}
+
+nav span.right a:hover:not(.active) {background-color: #ddd;}
+
+nav span a.active {background-color: rgb(0,100,245);}
+
+nav span.right {float: 	right;margin:0.8% 0.5%;}
+
+@media screen and (max-width: 600px){
+    nav span.right, nav span.left {float: none;}
+}
+
+.dropdown-list {
+	width:100%;
+	padding:5px 4px;
+	border:1px solid grey;
+}	
+
+.inputs {
+	width:68%;
+}
+
+#logo {
+	width:150px;
+	height:150px;
+	float:left;
+	margin-top:15px;
+}
+
+#img-upload {
+	float:right;
+	margin-right:5px;
+	margin-top:20px;
+}
+
+.img-btn {
+	margin:5px;
+}
+
+.box {
+	height:210px;
+	width:210px;
+	border:2px solid black;
+	margin-left:50px;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+.main{
+	position:relative;
+	text-align:center;
+    width: 99.99%;
+    padding:5px;
+    border: 0px solid grey;
+	background-color: #2ab1f5;
+	color:black;
+	letter-spacing:3px;
+}
+
+.main h1 {
+	font-size:35px;
+	padding-top:20px;
+}
+
+.main h2 {
+	letter-spacing:1px;
+	color:white;
+	font-family:serif;
+	font-size:45px;
+	font-weight:600;
+}
+
+#heading {
+	z-index:1;
+	position:sticky;
+	top:0;
+	text-align:center;
+	padding-top:0px;
+	margin-bottom:1px;
+	font-size:50px;
+	color:white;
+	text-shadow:2px 3px rgba(0,0,0,0.42);
+}
+
+
